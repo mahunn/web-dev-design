@@ -1,0 +1,236 @@
+
+.open-sans-normal{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+header{
+    background-image:url(/images/developer.png),url(/images/header_bg.png);
+    background-repeat: no-repeat;
+  background-position: top left,bottom right;
+  margin-top: -50px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 51px 226px;
+align-items: center;
+} 
+nav ul{
+    display: flex;
+    align-items: center;
+    gap: 51px;
+    
+}
+.nav-title{
+    font-size: 45px;
+    font-weight: 800;
+
+}
+.orange{
+    color: #FD6E0A;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474747;
+    
+}
+ul li{
+    list-style: none;
+    color: #474747;
+    
+} 
+.nav-anc{
+    font-size: 20px;
+    
+}
+
+.btn{
+    background-color: #FD6E0A;
+    font-size: 20px;
+     font-weight: 700;
+    color: white;
+   width: 200px;
+   height: 64px;
+   border-radius: 5px  ;
+   border: none;
+    padding: 18px 35px 19px 36px;
+
+}
+.banner-grettings{
+    font-size: 45px;  
+    font-weight: 600;  
+}
+.banner-title{
+    font-size: 85px;  
+    font-weight: 700;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+}
+.banner-content{
+    max-width: 585px;
+    max-height: 262px;
+    
+}
+.banner-des{
+    width: 585px;
+    height: 60px;
+    font-size: 18px;
+}
+.btn-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    
+
+}
+.banner img{
+    max-width: 584px;
+    max-height: 676px;
+}
+.dark-03{
+   color: #474747;
+font-size: 18px;
+}
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+
+}
+.section-description{
+    font-size: 18px;
+    
+    color: #757575;
+    
+}
+.bg-secondary{
+    background-color: #FFF8F3;
+}
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+   
+  
+}
+.about{
+    margin-top:130px;
+    padding:131px 156px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+.about-container{
+    display: flex;
+    justify-content:space-around;
+}
+.about-info{
+    font-weight: 700;
+}
+.title-style{
+font-size: 35px;
+font-weight: bold;
+}
+.p-style{
+    font-size: 18px;
+    color: #757575;
+}
+.wido{
+    text-align: center;
+    margin: 0 150px;
+}
+.skill-container{
+    display: flex;
+    
+}
+.skill-card{
+    padding: 30px;
+   
+    border-radius: 10px;
+    box-shadow: 0 6px 50px  0px rgba(0, 0, 0, 0.06) ;
+}
+.skill-name{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.skill-des{
+    font-size:16px;
+    color: #757575;
+}
+.resume-container{
+    display: flex;
+}
+
+.resume-container hr{
+   margin-right: 20px;
+   margin-top: 20px;
+}
+.exp-sub-title, .exp-des{
+    color:#757575;
+}
+.exp-des{
+    font-size: 12px;
+}
+.resume-main-title{
+    font-size: 35px;
+    font-weight: bold;
+  margin: 130px auto 100px auto;
+    text-align: center;
+}
+
+.resume-box .exp-title,h1{
+    color:#474747;
+}
+.resume-col-1{
+    
+    margin-right: 20px;
+}
+  .summary-btn{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  footer{
+    background-color: #FFF8F3;
+
+  }
+  .footer-container{
+    display: flex;
+    justify-content: space-around;
+    
+  }
+  input[type="text"]{
+    display: block;
+    height: 64px;
+    width:461px;
+    border-radius: 5px;
+    border:none;
+    margin-bottom: 15px;
+ 
+  }
+  textarea{
+    border: none;
+  }
+  .footer-col-1, .footer-col-2{
+    
+
+margin:100px ;
+  }
+
+  .footer-container button{
+    display: block ;
+    margin-top: 15px;
+  }
+  .logo img{
+    margin-right:24px;
+  }
+  .footer-col-1 p{
+    color: #757575;
+  }
